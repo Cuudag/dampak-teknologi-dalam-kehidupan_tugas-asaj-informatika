@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+      margin: 0;
+      padding: 0;
+ 
+  }
+ 
+  body {
+      background-color: #eff1f2;
+      font-family: sans-serif;
+  }
+ 
+.content {
+    grid-area: content;
+}
+.sidebar{
+    grid-area: sidebar;
+    background: linear-gradient(to right, rgba(200,107,142,1), rgba(218,105,250,1),
+     rgba(110,125,253,1)) ;
+    justify-content: center;
+}
+
+.container {
+    font-size: 1.5em;
+    width: 100%;
+    height: 100;
+    height: 100vh;
+    display: grid;
+    grid-template-areas: "sidebar" "content" "footer";
+    grid-template-columns: 1fr;
+    grid-template-rows: 130px 800px 250px;
+ 
+}
+ 
+.content, .sidebar {
+    padding: 1em;
+}
+ 
+nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+ 
+nav li{
+    list-style: none;
+    padding: 1em 0;
+}
+ 
+nav li a {
+    color: white;
+    font-weight: 700;
+    opacity: 0.6;
+    text-decoration: none;
+    transition: 0.3s;
+}
+ 
+nav li a:hover {
+    opacity: 1;
+}
+.hero {
+    max-width: 90 px;
+    margin: 0 auto;
+    text-align: center;
+}
+ 
+.hero img {
+    width: 200px;
+}
+ 
+.hero h1 {
+    font-size: 2em;
+    font-weight: 300;
+    color: #373046;
+}
+ 
+.hero p {
+    font-weight: 300;
+    line-height: 1.3em;
+    color: #98aBad;
+}
+ 
+.action-btn {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    background: #567bfb;
+    padding: 0.5em 2em;
+    border-radius: 60px;
+    margin: 1em 0;
+    transition: 0.3s;
+}
+ 
+@media (min-width: 1040px){
+    .container {
+        grid-template-areas:"sidebar content" "sidebar footer" ;
+        grid-template-rows: 1fr auto ;
+        grid-template-columns: 300px 1f;
+    }
+ 
+    nav ul{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .sidebar{
+        background: linear-gradient( rgba(200,107,142,1), rgba(218,105,250,1),
+        rgba(110,125,253,1)) ;
+        padding-top: 10em;
+    }
+    .hero{
+        text-align: left;
+        margin: 7em 0;
+    }
+    .hero img {
+        width: 200px;
+        float: right;
+    }
+    .hero h1{
+        font-size: 3em;
+    }
+    .hero p{
+        width: 60%;
+	}
+	
+</style>
+    <title>Belajar Informatika</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <nav>
+                <ul>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Blog</a></li>
+                    <li><a href="">Contact</a></li>   
+                </ul>
+            </nav>
+        </div>
+		    <main class="content">
+            <div class="hero-content">
+                <h1>Dampak Teknologi dalam Kehidupan</h1>
+				<br>
+				</h2>1. Perubahan Cara Hidup</h2>
+				<br><br>   
+				<p>Salah satu perubahan yang paling mencolok adalah dalam pola konsumsi masyarakat di era digital atau gadget ini. Indonesia juga merasakan dampaknya secara global, di mana pasar offline atau department store di seluruh dunia tiba-tiba mengalami penurunan aktivitas. Perkembangan teknologi yang pesat mendorong para pelaku bisnis untuk mencari celah agar tetap relevan dalam era digitalisasi. Salah satunya adalah melalui perubahan gaya hidup masyarakat yang kini lebih cenderung belanja secara online.</p>
+				<br>
+				</h2>2. Perubahan Cara Interaksi</h2>
+				<br><br>   
+				<p>Dampak positif Memudahkan komunikasi dan akses informasi, Memudahkan berinteraksi dengan dunia luar, Memudahkan membangun komunitas baru, Memudahkan berbelanja online, Memudahkan penyebaran informasi.</p>
+				<br>
+				</h2>3. Perubahan Cara Kerja</h2>
+				<br><br>   
+				<p>Salah satu yang paling mencolok dari perubahan ini adalah peningkatan efesiensi dalam bekerja. Di ​​masa lalu, tugas yang biasanya memerlukan waktu berjam-jam atau bahkan berhari-hari untuk diselesaikan secara manual kini dapat diselesaikan jauh lebih cepat dengan bantuan komputer dan perangkat lunak. Peningkatan efisiensi ini tidak hanya menghemat waktu tetapi juga meningkatkan produktivitas secara keseluruhan.</p>
+				<br>
+				</h2>Peran Informatika dalam Pendidikan dan Ekonomi.</h2>
+				<br><br>   
+				<p>Dalam pendidikan ekonomi, literasi digital menjadi keterampilan penting yang harus dimiliki siswa. Literasi digital memungkinkan siswa untuk mengakses informasi yang relevan, menganalisis data, dan menggunakan teknologi untuk mendukung keputusan ekonomi mereka. Informatika berperan penting dalam pendidikan dan ekonomi, baik dalam hal akses informasi, pembelajaran, dan transaksi bisnis, Maka dari itu:</p>
+				<br>
+				<p>Peran informatika dalam pendidikan:</p>
+				<ul>
+                    <li>Memudahkan akses informasi</li>
+                    <li>Memungkinkan pembelajaran interaktif</li>
+					<li>Memudahkan kolaborasi dan komunikasi</li>
+					<li>Memudahkan evaluasi dan pelacakan kemajuan</li>
+					<li>Memungkinkan pendidikan fleksibel</li>
+					<li>Memudahkan pembelajaran daring</li>
+					<li>Memudahkan berbagi hasil penelitian</li>
+					<li>Memudahkan konsultasi dengan pakar</li>
+                    <li>Memudahkan diskusi online</li>   
+                </ul>
+				<br>
+				<p>Peran informatika dalam ekonomi:</p>
+				<ul>
+					<li>Memudahkan transaksi perdagangan dan bisnis</li>
+                    <li>Memudahkan identifikasi area yang dapat dioptimalkan</li>
+					<li>Memudahkan pengurangan pemborosan dan menekan biaya produksi</li>
+					<li>Memudahkan perusahaan menawarkan harga yang lebih kompetitif</li>
+					<li>Memudahkan pemanfaatan teknologi dalam sistem pembayaran non-tunai</li>
+                </ul>
+				<br>
+				<center><img src="infografis.jpeg" title="Klik kanan dan pilih 'buka gambar di tab baru' untuk melihat full"></center>
+				<br>
+				<center><p>Anggota:</p>
+				<ul>
+					<li>Rafael Partogi / XII.5</li>
+                    <li>Jonathan Dwiandra / XII.5</li>
+					<li>Wendy / XII.4</li>
+                </ul></center>
+				<br>
+				<center><a href="quiz.html" class="action-btn">Take Quiz!</a></center>
+						
+			</div>
+			</div>
+
+</body>
+	
+</html?
